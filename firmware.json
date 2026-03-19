@@ -14,8 +14,7 @@
         "description": "Umbrella Company Hume Firmware",
         "bgColor": "#fffaf0",
         "active": true
-    }
-
+    },
     {
         "id": 2,
         "name": "Mayonaise Fuzz v6.6.6",
