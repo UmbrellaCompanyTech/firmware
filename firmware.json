@@ -20,7 +20,7 @@
         "name": "Mayonaise Fuzz v6.6.6",
         "filepath": "https://raw.githubusercontent.com/UmbrellaCompanyTech/firmware/refs/heads/main/bin/hume_v1.0.0.bin",
         "description": "This is test",
-        "bgColor": "#191970",
+        "bgColor": "#4169e1",
         "active": true
     }
 ]
