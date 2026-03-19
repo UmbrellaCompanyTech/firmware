@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Hume v1.0.1(latest)",
-        "filepath": "./bin/hume_v1.0.1.bin",
+        "filepath": "https://raw.githubusercontent.com/UmbrellaCompanyTech/firmware/refs/heads/main/bin/hume_v1.0.1.bin",
         "description": "・起動して一回目のタップテンポが正しい値にならないバグを修正\n・CCとPCを同時に送るコントローラー向けに、\nMIDICHの設定方法を変更、BYPASSスイッチ押しながらの時のみMIDICHが変更されるように",
         "bgColor": "#fffaf0",
         "active": true
@@ -10,7 +10,7 @@
     {
         "id": 1,
         "name": "Hume v1.0.0",
-        "filepath": "./bin/hume_v1.0.0.bin",
+        "filepath": "https://raw.githubusercontent.com/UmbrellaCompanyTech/firmware/refs/heads/main/bin/hume_v1.0.0.bin",
         "description": "Umbrella Company Hume Firmware",
         "bgColor": "#fffaf0",
         "active": true
