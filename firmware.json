@@ -13,7 +13,7 @@
         "model": "Hume",
         "name": "Hume v1.0.0",
         "filepath": "https://raw.githubusercontent.com/UmbrellaCompanyTech/firmware/refs/heads/main/bin/hume_v1.0.0.bin",
-        "description": "Hume first firmware",
+        "description": "-Hume first firmware",
         "bgColor": "#fffaf0",
         "active": true
     }
