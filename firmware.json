@@ -1,17 +1,19 @@
 [
     {
         "id": 0,
+        "model": "Hume",
         "name": "Hume v1.0.1(latest)",
         "filepath": "https://raw.githubusercontent.com/UmbrellaCompanyTech/firmware/refs/heads/main/bin/hume_v1.0.1.bin",
-        "description": "・起動して一回目のタップテンポが正しい値にならないバグを修正\n・ProgramChangeでプリセット呼び出し時FVパラメータが更新されないバグを修正\n・CCとPCを同時に送るコントローラー向けに、\nMIDICHの設定方法を変更、BYPASSスイッチ押しながらの時のみMIDICHが変更されるように変更",
+        "description": "-Fixed a bug where the first tap tempo after startup did not register the correct value.\n-Fixed a bug where FV parameters were not updated when recalling presets via Program Change.\n-Changed the MIDI channel setting behavior so that, for controllers that send CC and PC simultaneously, the MIDI channel can only be changed while holding down the BYPASS switch.\n\n-起動して一回目のタップテンポが正しい値にならないバグを修正\n-ProgramChangeでプリセット呼び出し時FVパラメータが更新されないバグを修正\n-CCとPCを同時に送るコントローラー向けに、MIDICHの設定方法を\nBYPASSスイッチ押しながらの時のみMIDICHが変更されるように変更",
         "bgColor": "#fffaf0",
         "active": true
     },
     {
         "id": 1,
+        "model": "Hume",
         "name": "Hume v1.0.0",
         "filepath": "https://raw.githubusercontent.com/UmbrellaCompanyTech/firmware/refs/heads/main/bin/hume_v1.0.0.bin",
-        "description": "Umbrella Company Hume Firmware",
+        "description": "Hume first firmware",
         "bgColor": "#fffaf0",
         "active": true
     }

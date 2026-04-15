@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Firmware Changelog</title>
+    <link rel="stylesheet" href="sakura.css">
+</head>
+<body>
+    <h1>Firmware Changelog</h1>
+    <p>Select a model:</p>
+    <ul id="models">
+    </ul>
+    <script>
+        fetch('firmware.json')
+            .then(response => response.json())
+            .then(data => {
+                const models = [...new Set(data.map(item => item.model))];
+                const ul = document.getElementById('models');
+                models.forEach(model => {
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.href = model.toLowerCase().replace(/ /g, '-').replace(/fuzz/g, 'fuzz') + '.html';
+                    a.textContent = model;
+                    li.appendChild(a);
+                    ul.appendChild(li);
+                });
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+    </script>
+</body>
+</html>
